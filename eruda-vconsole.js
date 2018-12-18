@@ -69,6 +69,8 @@
                 window.document.body.appendChild(script)
             },
             _run () {
+                var _origSetRequestHeader = window.eruda._devTools.get('network')._origSetRequestHeader
+                if (_origSetRequestHeader) window.XMLHttpRequest.prototype.setRequestHeader = _origSetRequestHeader
                 eruda.destroy()
                 window.vConsole = new window.VConsole()
             }
