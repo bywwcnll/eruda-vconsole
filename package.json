@@ -10,7 +10,8 @@
   },
   "keywords": [
     "eruda",
-    "plugin"
+    "plugin",
+    "vconsole"
   ],
   "author": "",
   "devDependencies": {

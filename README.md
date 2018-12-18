@@ -1,6 +1,6 @@
 # eruda-vconsole
 
-Eruda plugin for xxx.
+Eruda plugin for VConsole.
 
 ## Demo
 
